@@ -17,6 +17,7 @@ const whiteFiles = [
   'ts-with-react',
   'rename.js',
 ]
+
 const write = (dir) => {
   const files = fs.readdirSync(join(dir))
   for (const file of files) {
